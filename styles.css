@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background:rgb(247, 112, 222);
+  color: #304f4ffa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color:mintcream;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.home {
+  background: linear-gradient(
+    to bottom right, rgb(201, 139, 212),
+    rgb(236, 230, 235)85%);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.home h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(
+    to bottom right,
+    rgb(227, 56, 201),
+    rgb(228, 81, 213) 90%);;
+  color:mintcream ;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background:linear-gradient(
+    to bottom right, rgb(227, 56, 201),
+    rgb(228, 81, 213) 90%
+   );
+}
+
+#About {
+  text-align: center; 
+  background:linear-gradient(to bottom left,rgb(222, 195, 225),mintcream 90%);
+}
+
+#About .container {
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 50px 0; }
+
+#About h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+#About h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color:rgb(69, 68, 66);
+}
+
+#About p {
+  font-size: 24px;
+  color: rgb(219, 51, 185);
+  margin-bottom: 5px;
+}
+
+
+.testimonials {
+  padding: 50px 0;
+  text-align: center;
+  background:seashell;
+}
+
+.testimonial {
+  margin-bottom: 30px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact {
+  background: linear-gradient(
+    to bottom right,
+    rgb(201, 139, 212),
+    rgb(236, 230, 235)85%);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact input {
+  background:seashell;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.contact textarea {
+  background:seashell;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.contact button {
+  background: linear-gradient(
+    to bottom right,
+    rgb(227, 56, 201),
+    rgb(228, 81, 213) 90%);
+  color: antiquewhite;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: linear-gradient(to bottom right,
+  rgb(227, 56, 201),
+  rgb(228, 81, 213) 30%);
+}
+
+footer {
+  background:rgb(195, 26, 225);
+  color: #0a0707;
+  padding: 20px 0;
+  text-align: center;
+}
